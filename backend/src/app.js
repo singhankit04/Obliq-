@@ -4,6 +4,9 @@ import dotenv from 'dotenv';
 import cookieParser from 'cookie-parser';
 
 import authRoutes from './routes/auth.routes.js';
+import workspaceRoutes from './routes/workspace.routes.js';
+import projectRoutes from './routes/project.routes.js';
+import taskRoutes from './routes/task.routes.js';
 
 dotenv.config();
 
